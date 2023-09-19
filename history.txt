@@ -92,54 +92,13 @@
   131  git commit - m "Add Empty File"
   132  git status
   133  git log
-  134  git status
-  137  cd git_practice
-  138  git status
-  139  git status
-  140  git commit -m "Add empty file"
-  142  git commit -am "Add new features text"
-  143  git status
-  144  git log
-  145  git checkout main
-  148  git add file_1.txt
-  149  git commit -m "Added a line of text to file_1"
-  150  git merge features
-  151  git log
-  152  [200~git log --oneline --decorate --graph --all
-  153  git log --oneline --decorate --graph --all
-  155  git add new_features.txt
-  156  git status
-  157  git commit -m "Updated new_features.txt on main branch"
-  158  git checkout features
-  160  git add new_features.txt
-  161  git status
-  162  git commit -m "Updated new_features.txt on features branch" 
-  163  git checkout main
-  164  git merge features
-  166  git status
-  167  git add new_features.txt
-  168  git status
-  169  git commit -m "Updating new_features.txt because of merge conflict"
-  171  git add new_features.txt
-  172  git commit -m "Changing text in new_features.txt"
-  173  git branch -d features
-  174  git remote add origin git@github.com:sfolkman4/git-practice-sfolkman4.git
-  175  git push -u origin main
-  176  git clone https://github.com/sfolkman4/git-practice-sfolkman4.git
-  181  cd git-pracitce-sfolkman4
-  182  git clone https://github.com/sfolkman4/git-practice-sfolkman4.git
-  183  cd git-pracitce-sfolkman4
-  184  git clone https://github.com/sfolkman4/git-practice-boi-andy.git
-  185  cd git practice boi andy
-  187  cd git-practice-boi-andy
-  188  git checkout -b feature-sfolkman4
-  191  git add fortnite.txt
-  192  git status
-  193  git commit -m "Secret message for my BFF"
-  194  git push origin feature-sfolkman4
-  195  git pull
-  199  cd git-practice
-  200  cd git_practice
-  201  git pull
-  202  git log --oneline > gitlog.txt
-  203  history | grep git > history.txt
+  136  cd git-practice
+  138  git_practice
+  139  cd git_practice
+  140  git branch features
+  141  git checkout features
+  142  git branch
+  143  git checkout main
+  144  git branch -d features
+  145  git log --oneline > gitlog.txt
+  146   history | grep git > history.txt

@@ -1,3 +1,4 @@
+9c385ca Commiting gitlog and history files
 9cd03f5 Merge pull request #1 from boi-andy/feature-boi-andy
 3a974c9 this is my sick new feature
 382e87a Changing text in new_features.txt
