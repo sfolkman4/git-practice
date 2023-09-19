@@ -1,0 +1,145 @@
+    1  git --version
+    2  git config --global use.name Spencer Folkman
+    3  git config --global user.email sfolkman4@gmail.com
+    4  git config --global core.editor "code --wait"
+    5  git --version
+    6  git --global
+    7  git config --global user.name "Spencer Folkman"
+    8  git config --global user.email "sfolkman4@gmail.com"
+    9  git config --global --list
+   10  git config --global --unset use.name
+   11  git config --global --list
+   12  git config --global init.defaultBranch main
+   13  git config --global core.editor "code --wait"
+   14  git config --global --list
+   15  git remote
+   33  git --global list
+   34  git global --list
+   35  git global list
+   36  git --global list
+   37  git config --global --list
+   38  git status
+   40  cd git_practice
+   41  git status
+   42  git commit
+   49  cd git_practice
+   50  git init
+   51  git status
+   53  git status
+   55  git status
+   56  git add file_1.txt file_2,txt
+   57  git add file_2.txt
+   58  git status
+   59  git add file_1.txt
+   60  git_status
+   61  git status
+   62  git commit -m "create new files"
+   63  git status
+   64  git log
+   65  git status
+   68  git status
+   69  git add Read.me
+   70  git add Read.md
+   71  git add Readme.md
+   72  git commit -m "Adding Readme file for the first time"
+   73  git status
+   74  git log
+   75  echo "api-keys.txt" > gitignore
+   76  git add .gitignore
+   77  git status
+   78  git add .gitignore
+   79  git add gitignore
+   80  git status
+   81  git commit -m "Add .gitignore file"
+   83  git status
+   85  git status
+   86  git add api-keys.txt
+   87  git status
+   88  mv gitignore .gitignore
+   89  git add .gitignore
+   90  git status
+   91  [200~git add .gitignore
+   92  git add .gitignore
+   93  git status
+   94  rm gitignore
+   95  rm .gitignore
+   96  git status
+   97  del .gitignore
+   98  git rm --cached .gitignore
+   99  git rm --cached api-keys.txt
+  100  git - commit -m "Remove files to start over"
+  101  git commit -m "remove files to start over"
+  102  git status
+  103  git clear
+  104  git clean
+  105  git status
+  106  git rm gitignore
+  107  git rm --cached gitignore
+  108  git commit -m "Remove more files"
+  109  git status
+  110  git log
+  115  cd git_practice
+  117  echo"api-keys.txt" > .gitignore
+  118  echo "api-key.txt" > .gitignore
+  119  git add .gitignore
+  120  git status
+  121  git commit -m "Add .gitignore file to ignore api kets file"
+  123  git status
+  125  git status
+  126  git checkout -b features
+  128  git log --oneline --decorate --graph --all
+  130  git add new_features.txt
+  131  git commit - m "Add Empty File"
+  132  git status
+  133  git log
+  134  git status
+  137  cd git_practice
+  138  git status
+  139  git status
+  140  git commit -m "Add empty file"
+  142  git commit -am "Add new features text"
+  143  git status
+  144  git log
+  145  git checkout main
+  148  git add file_1.txt
+  149  git commit -m "Added a line of text to file_1"
+  150  git merge features
+  151  git log
+  152  [200~git log --oneline --decorate --graph --all
+  153  git log --oneline --decorate --graph --all
+  155  git add new_features.txt
+  156  git status
+  157  git commit -m "Updated new_features.txt on main branch"
+  158  git checkout features
+  160  git add new_features.txt
+  161  git status
+  162  git commit -m "Updated new_features.txt on features branch" 
+  163  git checkout main
+  164  git merge features
+  166  git status
+  167  git add new_features.txt
+  168  git status
+  169  git commit -m "Updating new_features.txt because of merge conflict"
+  171  git add new_features.txt
+  172  git commit -m "Changing text in new_features.txt"
+  173  git branch -d features
+  174  git remote add origin git@github.com:sfolkman4/git-practice-sfolkman4.git
+  175  git push -u origin main
+  176  git clone https://github.com/sfolkman4/git-practice-sfolkman4.git
+  181  cd git-pracitce-sfolkman4
+  182  git clone https://github.com/sfolkman4/git-practice-sfolkman4.git
+  183  cd git-pracitce-sfolkman4
+  184  git clone https://github.com/sfolkman4/git-practice-boi-andy.git
+  185  cd git practice boi andy
+  187  cd git-practice-boi-andy
+  188  git checkout -b feature-sfolkman4
+  191  git add fortnite.txt
+  192  git status
+  193  git commit -m "Secret message for my BFF"
+  194  git push origin feature-sfolkman4
+  195  git pull
+  199  cd git-practice
+  200  cd git_practice
+  201  git pull
+  202  git log --oneline > gitlog.txt
+  203  history | grep git > history.txt

@@ -1,0 +1,15 @@
+9cd03f5 Merge pull request #1 from boi-andy/feature-boi-andy
+3a974c9 this is my sick new feature
+382e87a Changing text in new_features.txt
+289460b Updating new_features.txt because of merge conflict
+235941b Updated new_features.txt on features branch
+8829ace Updated new_features.txt on main branch
+7cfd261 Merge branch 'features'
+9edff86 Added a line of text to file_1
+d58dc90 Add new features text
+6a610b3 Add empty file
+70b5606 Add .gitignore file to ignore api kets file
+c5c65cb Remove more files
+a772215 Add .gitignore file
+6fc057a Adding Readme file for the first time
+b0bc062 create new files
