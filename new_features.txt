@@ -1,1 +1,4 @@
+<<<<<<< HEAD
 No new features will be created.
+=======
+>>>>>>> features
